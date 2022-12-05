@@ -1,6 +1,9 @@
-
-
-import {loginTest} from "../swagLabsClass/login.class"
+import {
+    testLoginWhenUserIsLockedOut,
+    testForUsernameValidation,
+    passwordValidationTest,
+    wrongPasswordAndUserName
+} from "../swagLabsClass/login.class"
 
 describe('Test for the Login page', () => {
 
@@ -12,8 +15,20 @@ describe('Test for the Login page', () => {
         cy.visit('https://www.saucedemo.com/')
     })
 
-    it('login test', () => {       
-        loginTest()
+    it('1.test the validation for username', () => {
+        testForUsernameValidation()
+    })
+
+    it('2.test the validation for password', () => {       
+        passwordValidationTest()
+    })
+
+    it('3.test the invalid username login test', () => {       
+        testLoginWhenUserIsLockedOut()
+    })
+
+    it('4.test the login when the username and password are invalid', () => {
+        wrongPasswordAndUserName()
     })
 
 })
