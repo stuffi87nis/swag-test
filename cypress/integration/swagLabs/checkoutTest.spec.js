@@ -1,4 +1,7 @@
-import {checkTheFieldsInCheckoutPage, testTheValidationInCheckoutPage} from "../swagLabsClass/checkout.class"
+import {
+    checkTheFieldsInCheckoutPage, 
+    testTheValidationInCheckoutPage
+} from "../swagLabsFunctions/checkout.functions"
 
 describe('Test for the checkout page', () => {
 

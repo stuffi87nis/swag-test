@@ -1,4 +1,8 @@
-import {testTheButtonsInChart, cartTest, compareOrderTest} from "../swagLabsClass/chart.class"
+import {
+  testTheButtonsInChart, 
+  cartTest,
+  compareOrderTest
+  } from "../swagLabsFunctions/chart.functions"
 
 describe('this is the new test', () => {
 

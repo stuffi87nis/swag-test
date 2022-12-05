@@ -4,7 +4,7 @@ import {
     numberOfItemsTest,
     numberOfNotificationTest,
     resetAppStateTest
-} from "../swagLabsClass/inventory.class"
+} from "../swagLabsFunctions/inventory.functions"
 
 describe('Test for the Inventory page', () => {
 
