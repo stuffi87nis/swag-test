@@ -1,0 +1,157 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-12-06T14:06:02.434Z",
+    "end": "2022-12-06T14:06:07.180Z",
+    "duration": 4746,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8ac0d04b-8348-4b07-934f-0367451fa456",
+      "title": "",
+      "fullFile": "cypress/integration/swagLabs/loginTest.spec.js",
+      "file": "cypress/integration/swagLabs/loginTest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "61f0c62e-0c83-4a82-b708-d98596243469",
+          "title": "Test for the Login page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "1.test the validation for username",
+              "fullTitle": "Test for the Login page 1.test the validation for username",
+              "timedOut": null,
+              "duration": 392,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _login.testForUsernameValidation)();",
+              "err": {},
+              "uuid": "0781f97d-8641-401b-8111-932a6bff646a",
+              "parentUUID": "61f0c62e-0c83-4a82-b708-d98596243469",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "2.test the validation for password",
+              "fullTitle": "Test for the Login page 2.test the validation for password",
+              "timedOut": null,
+              "duration": 613,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _login.passwordValidationTest)();",
+              "err": {},
+              "uuid": "ce73f124-d288-40c9-ab05-6ec02c591b4b",
+              "parentUUID": "61f0c62e-0c83-4a82-b708-d98596243469",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "3.test the invalid username login test",
+              "fullTitle": "Test for the Login page 3.test the invalid username login test",
+              "timedOut": null,
+              "duration": 1421,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _login.testLoginWhenUserIsLockedOut)();",
+              "err": {},
+              "uuid": "c1ad3356-8286-4f35-b306-5602c1cd6ace",
+              "parentUUID": "61f0c62e-0c83-4a82-b708-d98596243469",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "4.test the login when the username and password are invalid",
+              "fullTitle": "Test for the Login page 4.test the login when the username and password are invalid",
+              "timedOut": null,
+              "duration": 1076,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _login.wrongPasswordAndUserName)();",
+              "err": {},
+              "uuid": "08f70486-93c2-49bb-b8ba-8c4bfae2f9a8",
+              "parentUUID": "61f0c62e-0c83-4a82-b708-d98596243469",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0781f97d-8641-401b-8111-932a6bff646a",
+            "ce73f124-d288-40c9-ab05-6ec02c591b4b",
+            "c1ad3356-8286-4f35-b306-5602c1cd6ace",
+            "08f70486-93c2-49bb-b8ba-8c4bfae2f9a8"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3502,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

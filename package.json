@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --reporter mochawesome",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "stefan",
@@ -11,5 +13,8 @@
   "dependencies": {
     "cypress": "9.5",
     "cypress-real-events": "^1.7.4"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
   }
 }
