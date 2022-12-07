@@ -60,7 +60,9 @@ export function numberOfNotificationTest(){
              }
           })
     }) 
-    cy.get(removeButton.sauceLabBackPackRemoveButton).click()                
+    cy.get(removeButton.sauceLabBackPackRemoveButton).click()   
+    
+   
     //select more items and compare with cart test
         cy.get(addToCartButton.sauceLabBackPackAddButton).click()
         cy.get(addToCartButton.sauceLabsFleeJacketAddButton).click()
@@ -72,6 +74,8 @@ export function numberOfNotificationTest(){
             expect(removeButton.length).to.be.eq(Number(numOfPurchase));    
             })
     })
+
+
 };
 
 export function resetAppStateTest(){

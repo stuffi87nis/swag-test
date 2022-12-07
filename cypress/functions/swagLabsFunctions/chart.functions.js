@@ -39,7 +39,7 @@ export function cartTest(){
                   .eq(i)
                   .find('div')
                   .eq(1)
-                  
+           
             }
         })
     })   
