@@ -87,7 +87,7 @@ export function resetAppStateTest(){
         
     })
 };
-export function sortingFromAtoZ(){
+export function sortingTest(){
     cy.get(menuForSortingitems.linkForSortingItems).select('az') 
     cy.get(inventoryElements.itemsFromContainer)
     .first()

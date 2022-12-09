@@ -4,7 +4,7 @@ import {
     numberOfItemsTest,
     numberOfNotificationTest,
     resetAppStateTest,
-    sortingFromAtoZ
+    sortingTest
 } from "../../functions/inventoryFunction/inventory.functions"
 
 describe('Test for the Inventory page', () => {
@@ -38,7 +38,7 @@ describe('Test for the Inventory page', () => {
         resetAppStateTest()
     })
 
-    it.only('6.sort items', () => {
-        sortingFromAtoZ()
+    it.only('6.sort items test', () => {
+        sortingTest()
     })
 })
