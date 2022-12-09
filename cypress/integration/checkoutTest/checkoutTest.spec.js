@@ -1,7 +1,7 @@
 import {
     checkTheFieldsInCheckoutPage, 
     testTheValidationInCheckoutPage
-} from "../../functions/swagLabsFunctions/checkout.functions"
+} from "../../functions/checkoutFunction/checkout.functions"
 
 describe('Test for the checkout page', () => {
 

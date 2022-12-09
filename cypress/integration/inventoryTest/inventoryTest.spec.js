@@ -3,8 +3,9 @@ import {
     sortingItemsTest,
     numberOfItemsTest,
     numberOfNotificationTest,
-    resetAppStateTest
-} from "../../functions/swagLabsFunctions/inventory.functions"
+    resetAppStateTest,
+    sortingFromAtoZ
+} from "../../functions/inventoryFunction/inventory.functions"
 
 describe('Test for the Inventory page', () => {
 
@@ -36,6 +37,8 @@ describe('Test for the Inventory page', () => {
     it('5.reset app state test', () => {
         resetAppStateTest()
     })
-    
-    
+
+    it.only('6.sort items', () => {
+        sortingFromAtoZ()
+    })
 })

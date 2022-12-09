@@ -2,7 +2,7 @@ import {
   testTheButtonsInChart, 
   cartTest,
   compareOrderTest
-  } from "../../functions/swagLabsFunctions/chart.functions"
+  } from "../../functions/chartFunction/chart.functions"
 
 describe('this is the new test', () => {
 

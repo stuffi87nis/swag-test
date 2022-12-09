@@ -6,7 +6,8 @@
    "html": true,
    "json": true,
    "reportDir": "cypress/reports",
-   "reportFilename": "report"
+   "reportFilename": "report",
+   "baseUrl" : "https://www.saucedemo.com/"
  }
    
 }

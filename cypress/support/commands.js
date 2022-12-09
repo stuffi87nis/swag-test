@@ -37,5 +37,5 @@ Cypress.Commands.add('loginTest', () => {
         cy.get(loginElements.userNameField).type(userInfoData.username)
         cy.get(loginElements.passwordField).type(userInfoData.password)
         cy.get(loginElements.loginButton).click()
-        Cypress.Cookies.preserveOnce('session-username')        
+        Cypress.Cookies.preserveOnce('session-username')  
 })

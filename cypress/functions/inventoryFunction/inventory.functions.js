@@ -87,3 +87,25 @@ export function resetAppStateTest(){
         
     })
 };
+export function sortingFromAtoZ(){
+    cy.get(menuForSortingitems.linkForSortingItems).select('az') 
+    cy.get(inventoryElements.itemsFromContainer)
+    .first()
+    .should('contain', 'Sauce Labs Backpack')
+ 
+
+    cy.get(menuForSortingitems.linkForSortingItems).select('za') 
+    cy.get(inventoryElements.itemsFromContainer)
+    .first()
+    .should('contain', 'Test.allTheThings() T-Shirt (Red)')
+
+    cy.get(menuForSortingitems.linkForSortingItems).select('lohi') 
+    cy.get(inventoryElements.itemsFromContainer)
+    .first()
+    .should('contain', '$' + "7.99")
+
+    cy.get(menuForSortingitems.linkForSortingItems).select('hilo') 
+    cy.get(inventoryElements.itemsFromContainer)
+    .first()
+    .should('contain', '$' + "49.99")
+}

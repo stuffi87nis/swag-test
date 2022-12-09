@@ -3,7 +3,7 @@ import {
     testForUsernameValidation,
     passwordValidationTest,
     wrongPasswordAndUserName
-} from "../../functions/swagLabsFunctions/login.functions"
+} from "../../functions/loginFunction/login.functions"
 
 describe('Test for the Login page', () => {
 
