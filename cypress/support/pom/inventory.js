@@ -27,6 +27,9 @@ const menuForSortingitems = {
 const inventoryElements = {
     containerForItems : '.inventory_list',
     itemsFromContainer : '.inventory_item',
+    imgLink : '#item_4_img_link',
+    imageDetail : '.inventory_details_img',
+    inventoryDetailContainer : '.inventory_details_desc_container'
 } 
 
 const addToCartButton = {
