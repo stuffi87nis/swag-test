@@ -15,4 +15,6 @@ Data for test:
 cypress\fixtures\userData.js <br>
 cypress\fixtures\errorMessagesData.js <br>
 
-Steps to start project: 1.Clone repo 2.Run the tests with: "npm run cypress:open" <br>
+Steps to start project: <br>
+1.Clone repo <br>
+2.Run the tests with: "npm run cypress:open" <br>
